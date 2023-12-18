@@ -1,0 +1,26 @@
+/* Стилі для вигляду активного текстового поля з фокусом у формах. */
+active-purple-4 input[type=text]:focus:not([readonly]) {
+    border: 1px solid #ce93d8;
+    box-shadow: 0 0 0 1px #ce93d8;
+}
+/* Стиль для зображень з фіксованою шириною 150px. */
+.img200{
+    width: 150px;
+
+}
+/* Стилі для червоних кнопок. */
+.redbtn {
+    background: #ff2c2c;
+}
+/* Змінені стилі при наведенні, фокусі та відвідуванні червоних кнопок. */
+.redbtn:hover,
+.redbtn:focus,
+.redbtn:visited{
+    background: #9e0f0f;
+    color: white;
+}
+/* Задній фон сторінки, який є градієнтом від білого до блакитного. */
+body {
+    background: #ffffff;
+    background: linear-gradient(to right, #ffffff, #cbf0ff);
+}
